@@ -5,47 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
-    <title>Document</title>
+    <title>Money Master</title>
   </head>
   <body>
-    <header>
+    <main class="main-section">
       <h1>Money Master</h1>
-    </header>
-    <main>
-      <section>
-        <h4>Income</h4>
-        <div class="">
-          <label for="">Incone: </label>
-          <input type="text" />
+      <section class="calculetion-section">
+        <div class="benner">
+          <img src="image.jpg" alt="" />
         </div>
-      </section>
-      <section>
-        <h4>Expenses</h4>
-        <div class="">
-          <label for="">Incone: </label>
-          <input type="text" />
-        </div>
-        <div class="">
-          <label for="">Incone: </label>
-          <input type="text" />
-        </div>
-        <div class="">
-          <label for="">Incone: </label>
-          <input type="text" />
-        </div>
-        <button>Calculate</button>
-        <h4>Total Expenses: <span>0</span></h4>
-        <h4>Balance: <span>0</span></h4>
-      </section>
-      <section>
-        <div class="">
-          <label for="">Save: </label>
-          <input type="text" />
-          <span>%</span>
-          <button>Save</button>
-        </div>
-        <h4>Saving Amount: <span>0</span></h4>
-        <h4>Remaining Balance: <span>0</span></h4>
+        <section class="calculetion-details">
+          <h3>Income</h3>
+          <div>
+            <label>Incone: </label>
+            <input type="text" />
+          </div>
+          <div>
+            <h3>Expenses</h3>
+            <div>
+              <label>Food: </label>
+              <input type="text" />
+            </div>
+            <div class="">
+              <label>Rent: </label>
+              <input type="text" />
+            </div>
+            <div class="">
+              <label>Clothes: </label>
+              <input type="text" />
+            </div>
+            <button class="calculate-btn">Calculate</button>
+            <h3>Total Expenses: <span>0</span></h3>
+            <h3>Balance: <span>0</span></h3>
+          </div>
+          <div>
+            <div>
+              <label>Save: </label>
+              <input type="text" />
+              <span>%</span>
+              <button>Save</button>
+            </div>
+            <h3>Saving Amount: <span>0</span></h3>
+            <h3>Remaining Balance: <span>0</span></h3>
+          </div>
+        </section>
       </section>
     </main>
     <script src="js/scrip.js"></script>
