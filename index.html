@@ -18,27 +18,27 @@
           <h3>Income</h3>
           <div>
             <label>Incone: </label>
-            <input class="input-field" type="text" />
+            <input id="income-input-field" class="input-field" type="text" />
           </div>
           <div>
             <h3>Expenses</h3>
             <div class="expenses-field">
               <div class="expenses-field">
                 <label class="food-label">Food: </label>
-                <input class="input-field" type="text" />
+                <input id="food-input-field" class="input-field" type="text" />
               </div>
               <div class="expenses-field">
                 <label class="rent-label">Rent: </label>
-                <input class="input-field" type="text" />
+                <input id="rent-input-field" class="input-field" type="text" />
               </div>
               <div class="expenses-field">
                 <label>Clothes: </label>
-                <input class="input-field" type="text" />
+                <input id="clothes-input-field" class="input-field" type="text" />
               </div>
             </div>
-            <button class="calculate-btn">Calculate</button>
-            <h3>Total Expenses: <span>0</span></h3>
-            <h3>Balance: <span>0</span></h3>
+            <button id="btn-calculate-income" class="calculate-btn">Calculate</button>
+            <h3>Total Expenses: <span id="expenses-total">0</span></h3>
+            <h3>Balance: <span id="current-belance">0</span></h3>
           </div>
           <div>
             <div>
@@ -53,6 +53,7 @@
         </section>
       </section>
     </main>
-    <script src="js/scrip.js"></script>
+    <script src="js/utility.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
